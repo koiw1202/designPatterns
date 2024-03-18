@@ -8,6 +8,12 @@ public class Main {
         CoffeeStrategy cs2 = new CafelatteStrategy() ;
         cs2.brew() ;
 
+        CaffeeMachine cm = new CaffeeMachine() ;
+
+        System.out.println(cm.brew(cs1)) ;
+
+        System.out.println(cm.brew(cs2)) ;
+
 
     }
 }
