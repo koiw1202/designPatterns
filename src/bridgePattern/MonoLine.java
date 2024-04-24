@@ -9,6 +9,7 @@ public class MonoLine extends Brush {
 
     @Override
     public String draw() {
-        return type + " " + color.fill();
+
+        return type + " " + color.fill() ;
     }
 }

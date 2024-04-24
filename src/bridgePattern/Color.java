@@ -1,3 +1,7 @@
 package bridgePattern;
 
-public interface Color {    String fill();}
+public interface Color {
+
+    String fill() ;
+
+}

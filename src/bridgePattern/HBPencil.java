@@ -9,6 +9,7 @@ public class HBPencil extends Brush {
 
     @Override
     public String draw() {
+
         return type + " " + color.fill();
     }
 }
